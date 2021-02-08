@@ -163,8 +163,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 7c8f2c1b40ef5804b90042c80473b066, type: 3}
-    m_FontSize: 72
+    m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -211,21 +211,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 100000, guid: 45a7c5631d9b74a5984dfe39b48e0199, type: 3}
-      propertyPath: m_Name
-      value: meep
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 45a7c5631d9b74a5984dfe39b48e0199, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 45a7c5631d9b74a5984dfe39b48e0199, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.88
+      value: -1.8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 45a7c5631d9b74a5984dfe39b48e0199, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.73
+      value: 0.55830437
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 45a7c5631d9b74a5984dfe39b48e0199, type: 3}
       propertyPath: m_LocalPosition.z
@@ -247,19 +243,6 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 45a7c5631d9b74a5984dfe39b48e0199, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 1.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 45a7c5631d9b74a5984dfe39b48e0199, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 21200000, guid: 45a7c5631d9b74a5984dfe39b48e0199, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -4241005574585663324, guid: d4744eb1ca368c84aa2a030c268f3b61,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45a7c5631d9b74a5984dfe39b48e0199, type: 3}
 --- !u!1 &1154207687
@@ -320,12 +303,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 7c8f2c1b40ef5804b90042c80473b066, type: 3}
-    m_FontSize: 32
+    m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -400,7 +383,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1244831758}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.6799998, y: 0.17169565, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -419,11 +402,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: cc934f51fc632524786844dca51b4475, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.6799998
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: cc934f51fc632524786844dca51b4475, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.17169565
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: cc934f51fc632524786844dca51b4475, type: 3}
       propertyPath: m_LocalPosition.z
@@ -457,16 +440,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 21200002, guid: cc934f51fc632524786844dca51b4475, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 4de370ec90388654e8a53c2ea4d63fb4,
-        type: 3}
-    - target: {fileID: 21200004, guid: cc934f51fc632524786844dca51b4475, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 4de370ec90388654e8a53c2ea4d63fb4,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc934f51fc632524786844dca51b4475, type: 3}
 --- !u!1 &1862862023
@@ -498,7 +471,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862862023}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.6799998, y: 0.17169565, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -725,12 +698,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 7c8f2c1b40ef5804b90042c80473b066, type: 3}
-    m_FontSize: 36
+    m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 1
     m_RichText: 1
