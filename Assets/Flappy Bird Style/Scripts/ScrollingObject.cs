@@ -5,8 +5,7 @@ using UnityEngine;
 public class ScrollingObject : MonoBehaviour 
 {
 	private Rigidbody2D rb2d;
-
-	// Use this for initialization
+	public float scrollySpeed = -1.5f;
 	void Start () 
 	{
 		//Get and store a reference to the Rigidbody2D attached to this GameObject.
@@ -18,7 +17,7 @@ public class ScrollingObject : MonoBehaviour
 
 	void Update()
 	{
-		// If the game is over, stop scrolling.
+		// If the game is over, stop scrolling
 		if(GameControl.instance.gameOver == true)
 		{
 			rb2d.velocity = Vector2.zero;
