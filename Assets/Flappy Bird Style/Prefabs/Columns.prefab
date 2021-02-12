@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6100000}
   m_Layer: 9
   m_Name: Column
-  m_TagString: Untagged
+  m_TagString: Column
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -195,6 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 907b5dc54fcb546b79573aef145c4681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scrollySpeed: -1.5
 --- !u!50 &50855699005824284
 Rigidbody2D:
   serializedVersion: 4
@@ -229,7 +230,7 @@ GameObject:
   - component: {fileID: 6100002}
   m_Layer: 9
   m_Name: Column
-  m_TagString: Untagged
+  m_TagString: Column
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

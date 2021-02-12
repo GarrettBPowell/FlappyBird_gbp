@@ -12,7 +12,7 @@ public class RepeatingBackground : MonoBehaviour
 	{
 		groundCollider = GetComponent<BoxCollider2D> ();
 		groundHorizontalLength = groundCollider.size.x;
-		Debug.Log(groundCollider.size.x);
+		//Debug.Log(groundCollider.size.x);
 	}
 
 	private void Update()
