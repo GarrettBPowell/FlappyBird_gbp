@@ -11,9 +11,7 @@ public class Bird : MonoBehaviour
 
 	void Start()
 	{
-
 		anim = GetComponent<Animator> ();
-
 		rb2d = GetComponent<Rigidbody2D>();
 	}
 
@@ -23,7 +21,6 @@ public class Bird : MonoBehaviour
 		{
 			if (Input.GetButtonDown("FLAP")) 
 			{
-
 				anim.SetTrigger("Flap");
 				rb2d.velocity = Vector2.zero;
 				rb2d.AddForce(new Vector2(0, upForce));
